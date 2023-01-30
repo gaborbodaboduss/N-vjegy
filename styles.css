@@ -1,1 +1,244 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #40514E;
+}
+
+
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.Text1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Text2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.middle-container{
+   margin: 100px 0;
+}
+
+
+.bottom-container{
+   background-color:  #66BFBF;
+   font-weight: bold;
+   padding: 30px 0 10px;
+}
+
+/*.bottom-container{
+    width: auto;
+    height: 100px;
+    background-color:  #66BFBF;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 25px;
+ }
+*/
+
+.dev{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.Frontend{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.explore{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/*
+.Creator{
+    clear: left;
+}
+
+.Explore{
+    clear: right;
+}
+*/
+
+.Contactme{
+    width: 15%;
+    margin: 10px auto 10px;
+}
+
+.BG{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.BG:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+h1{
+    font-size: 5.625rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    line-height: 2em;
+    margin-top: 0;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+/*.footer-link{
+    color: #11999E;
+    position: relative;
+    top: 15px;
+    padding: 15px;
+}
+*/
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.Hellothere{
+    color: #40514E;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+}
+
+hr {
+    border: 10px dotted #EAF6F6;
+    width: 4%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 10px 0px;
+}
+
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.fuji{
+    width: 100%;
+}
+
+/*  Ide jön a felirat design*/
+
+a {
+	text-decoration: none;
+	color: #9ca0b1;
+}
+
+.Text1 {
+	text-align: center;
+	color: #fff;
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: "Josefin Sans", sans-serif;
+	background: linear-gradient(to right,#095fab 25%, #25abe8 50%, #57d75b 60%);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 4s linear infinite;
+	display: inline-block;
+}
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
 
